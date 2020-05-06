@@ -1,6 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+import BookingMain from './BookingMain'
+
+const Tab = createBottomTabNavigator();
+
+
 
 export default function Rewards({ navigation, extraData }) {
   return (
@@ -9,8 +17,9 @@ export default function Rewards({ navigation, extraData }) {
       <Text> Rewards screen {extraData}</Text>
       <Button
         title="Go to Booking"
-        onPress={() => navigation.navigate('BookingMain')}
+        onPress={() => navigation.navigate('New Booking')}
       />
+
     </View>
   );
 }

@@ -1,14 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import NavIcons from "../components/NavIcons/NavIcons";
-
 
 export default function Rewards() {
   return (
     <View style={styles.container}>
-      <Text> Booking main screen</Text>
-      <NavIcons />
+      <Text> Appointments main screen</Text>
     </View>
   );
 }
