@@ -9,12 +9,12 @@ export default function Rewards({ navigation, extraData }) {
       <img
         src={require(`../assets/StaffBumpGraphics/Artwork/iconRewardsLarge.svg`)}
         alt="Smiley face"
-        height="112"
+        height="92"
         width="188"
       />
       <Text
         style={{
-          fontSize: 30,
+          fontSize: 25,
           fontFamily: "Advent Pro",
           color: "#16A7B9",
           fontWeight: 1000,
@@ -26,7 +26,7 @@ export default function Rewards({ navigation, extraData }) {
 
       <Text
         style={{
-          fontSize: 18,
+          fontSize: 16,
           marginTop: 20,
           paddingBottom: 10,
         }}
@@ -34,7 +34,7 @@ export default function Rewards({ navigation, extraData }) {
         Points Balance:{" "}
         <Text
           style={{
-            fontSize: 35,
+            fontSize: 30,
             color: "#8F75BE",
             fontWeight: "bold",
             letterSpacing: "4px",
