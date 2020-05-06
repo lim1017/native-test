@@ -12,9 +12,9 @@ const Navbars = (props) =>{
   return (
 
 <Navbar className='header' bg="light" expand="lg">
-  {props.leftButton ? <span style={{marginRight: '5px'}}> {props.leftButton} </span> : null }
+  {/* {props.leftButton ? <span style={{marginRight: '5px'}}> {props.leftButton} </span> : null } */}
   
-<Navbar.Brand href="#home"><img src={require(`../../assets/StaffBumpLogo/WebFiles/StaffBumpLogo_ReverseHorizontal.png`)} alt="Smiley face" height="42" width="188" /></Navbar.Brand>
+<Navbar.Brand href="#home"><img src={require(`../../assets/StaffBumpLogo/WebFiles/StaffBumpLogo_ReverseHorizontal.png`)} alt="Smiley face" height="35" width="188" /></Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 <Navbar.Collapse id="basic-navbar-nav">
   <Nav className="mr-auto">
